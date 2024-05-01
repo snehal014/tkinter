@@ -1,0 +1,15 @@
+create a database "users" for accessing the records.
+
+create table name users in it with attributes like username,email and password .
+
+sql queries:
+
+create database users;
+
+create table users(username varchar(100) not null,email varchar(100) not null, password varchar(100) not null);
+
+desc users;
+//to know the structure of the database and its properties like datatype and not null values.
+
+select * from users;
+//to display the registered users information.
